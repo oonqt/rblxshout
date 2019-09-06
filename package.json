@@ -1,5 +1,5 @@
 {
-  "name": "group-announcer",
+  "name": "rblxshout",
   "version": "1.0.0",
   "description": "An easy to configure ROBLOX group shout notifier",
   "main": "app.js",
