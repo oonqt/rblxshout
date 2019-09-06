@@ -6,6 +6,6 @@ rblxshout is an open-source group shout notification system
 
   - Integrated via Discord webhook
   - Works with private groups
-  - Easy to configure and set up
+  - Easy to configure and deploy
 
-### Need help? Contact me: Obame#4116
+### Need help? Contact me via my [server](https://discord.gg/w6CjJBz)
