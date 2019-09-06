@@ -1,10 +1,11 @@
 {
   "name": "rblxshout",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An easy to configure ROBLOX group shout notifier",
   "main": "app.js",
   "scripts": {
-    "dev": "nodemon ."
+    "dev": "nodemon .",
+    "start": "node ."
   },
   "author": "Deathly",
   "license": "MIT",
