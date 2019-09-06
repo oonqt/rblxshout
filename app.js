@@ -12,7 +12,7 @@ async function main() {
         body = JSON.parse(body);
 
         if(!body.shout) {
-            console.error("I cannot view the chat. Please add a .ROBLOSECURITY token to the config file for a user that is in the group.");
+            console.error("I cannot view the shout. Please add a .ROBLOSECURITY token to the config file for a user that is in the group.");
             process.exit(1);
         }
 
@@ -21,7 +21,6 @@ async function main() {
         let shouterId = body.shout.poster.userId;
         let shout = body.shout.body;
         let createdAt = body.shout.updated;
-        let thumbnail = await getThumbnail(groupId).catch(() => console.error(err));
 
         if(!fs.existsSync(".lastPostDate")) await fs.writeFileSync(".lastPostDate", Date.parse(createdAt));
 
@@ -32,6 +31,8 @@ async function main() {
         fs.writeFile(".lastPostDate", Date.parse(createdAt), err => {
             if(err) throw err;
         });
+
+        let thumbnail = await getThumbnail(groupId).catch(() => console.error(err));
 
         request.post(webhook, {
             json: true,
