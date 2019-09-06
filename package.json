@@ -1,0 +1,17 @@
+{
+  "name": "group-announcer",
+  "version": "1.0.0",
+  "description": "An easy to configure ROBLOX group shout notifier",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon ."
+  },
+  "author": "Deathly",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
