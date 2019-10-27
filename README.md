@@ -1,6 +1,6 @@
 # rblxshout
 
-[![N|Solid](https://memester.cf/u/vjw.png)](https://nodejs.org/)
+[![N|Solid](https://i.memester.cf/u/vjw.png)](https://nodejs.org/)
 
 rblxshout is an open-source group shout notification system
 
