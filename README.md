@@ -8,4 +8,5 @@ rblxshout is an open-source group shout notification system
   - Works with private groups
   - Easy to configure and deploy
 
+### Installation instructions can be found [here](https://youtu.be/4qNT9o2dwWs)
 ### Need help? Contact me via my [server](https://discord.gg/w6CjJBz)
