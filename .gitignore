@@ -1,5 +1,4 @@
 package-lock.json
 node_modules/
 .lastPostDate
-config.json
-todo.txt
+config.js
