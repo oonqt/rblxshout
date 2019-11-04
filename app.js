@@ -7,7 +7,8 @@ const {
 	checkInterval,
 	overridePfp,
     disableMentions,
-    colors
+	colors,
+	overrideName
 } = require("./config");
 
 async function main() {
@@ -53,7 +54,7 @@ async function main() {
 				request.post(webhook, {
 					json: true,
 					body: {
-						username: "Shout Bot",
+						username: (overrideName ? `${groupName} Bot` : null),
 						avatar_url: ( overridePfp ? thumbnail : null ),
 						content: disableMentions ? null : "@here",
 						embeds: [

@@ -28,6 +28,6 @@ module.exports = {
     // set this to true to disable mentions
 
     "overrideName": true,
-    // enabling this setting allows the script to automatically set the name of the webhook ex. [GROUP_NAME] Notifications
+    // enabling this setting allows the script to automatically set the name of the webhook ex. [GROUP_NAME] Bot
     // set this to false if you wish to set your own name under the webhook settings page
 }
